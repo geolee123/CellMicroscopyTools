@@ -12,11 +12,11 @@ source("measure_cell_area.r")
 MPP<-500/156 # microns per pixel conversation # will output pixels as default
 dmin<-200
 sdradiusmax<-50 # max standard deviation (um)
-area<-getarea(filename = '10-18-17 Dvl TKO Dvl1 dDEP_G5.tif', dmin=dmin, sdradiusmax= sdradiusmax, MPP=MPP)
+area<-getarea(filename = 'example1.tif', dmin=dmin, sdradiusmax= sdradiusmax, MPP=MPP)
 
-area<-getarea(filename = '10-18-17 Dvl TKO Dvl1 dDEP_G5.tif')
+area<-getarea(filename = 'example1.tif')
 
-area<-getarea(filename = 'LIG4 #1 WT C10_P_c3_4x_0003.tif', inverse=T)
+area<-getarea(filename = 'example2.tif', inverse=T)
 
 
 # batch run
